@@ -1,0 +1,140 @@
+@media screen and (max-width: 1080px) {
+
+
+    .bloc {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .photo {
+       width: 120px;
+       height: 120px;
+       display: flex;
+    }
+
+    h1 {
+        width: 55%; 
+    }
+
+    h2 {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    h3,
+    h5 {
+        background: #c6af99;
+        font-size: larger;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .h4 {
+        text-align: center;
+        text-align: justify;
+        margin: 0;
+    }
+
+    .titre {
+        font-weight: bold;
+    }
+
+    ul {
+        text-align: center;
+        text-align: justify;
+        margin: 0;
+    }
+
+    #text {
+        max-width: 300px;
+        display: flex;
+        text-align: justify;
+    }
+
+    .coordonnee {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 15px;
+
+    }
+
+    .icon {
+        margin: auto;
+    }
+
+    .coord {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    .bloc {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 50%;
+        margin: auto;
+    }
+
+    #nom {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    h3,
+    h5 {
+        background: #c6af99;
+        font-size: larger;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .h4 {
+        text-align: center;
+        text-align: justify;
+        margin: 0;
+    }
+
+    .titre {
+        font-weight: bold;
+    }
+
+    ul {
+        text-align: center;
+        text-align: justify;
+        margin: 0;
+    }
+
+    #text {
+        display: flex;
+        text-align: justify;
+    }
+
+    .coordonnee {
+        display: flex;
+        width: 100%;
+        border-bottom: 10px solid #c6af99;
+        margin-top: 40px;
+    }
+
+    .icon {
+        margin: auto;
+
+    }
+
+    .coord {
+        text-align: center;
+
+    }
+
+}
