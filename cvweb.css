@@ -1,3 +1,20 @@
+/* @font-face {
+    font-family: 'poppinsregular';
+    src: url('./Font/poppins-regular-webfont.woff2') format('woff2'),
+         url('./Font/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('./Font/opensans-light-webfont.woff2') format('woff2'),
+         url('./Font/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
 @media screen and (max-width: 1080px) {
 
 
@@ -5,8 +22,13 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 100%;
+        width: 100%;  
     }
+
+    a {
+        color: #c6af99;
+     }
+ 
 
     .photo {
        width: 120px;
@@ -16,41 +38,59 @@
 
     h1 {
         width: 55%; 
+        font-family: 'open_sanslight'; 
     }
 
     h2 {
         display: flex;
         margin-left: 50px;
+        font-family: 'open_sanslight';
     }
 
-    h3,
+    h3 {
+        background: #c6af99;
+        font-size: larger;
+        letter-spacing: 1px;
+        width: 100%; 
+        font-size: 25px;
+        font-family: 'open_sanslight';
+    }
+
+    
     h5 {
         background: #c6af99;
         font-size: larger;
         letter-spacing: 1px;
         width: 100%;
+        font-family: 'open_sanslight';
     }
 
     .h4 {
         text-align: center;
         text-align: justify;
         margin: 0;
+        font-family: 'open_sanslight';
     }
 
     .titre {
         font-weight: bold;
+        font-size: 20px;
+         font-family: 'poppinsregular';
+         font-style: oblique;
     }
 
     ul {
         text-align: center;
         text-align: justify;
         margin: 0;
+        font-family: 'poppinsregular';
     }
 
     #text {
         max-width: 300px;
         display: flex;
         text-align: justify;
+        font-family: 'poppinsregular';
     }
 
     .coordonnee {
@@ -58,7 +98,7 @@
         flex-direction: column;
         margin: auto;
         margin-top: 15px;
-
+        font-family: 'poppinsregular';
     }
 
     .icon {
@@ -78,6 +118,7 @@
         flex-wrap: wrap;
         width: 50%;
         margin: auto;
+        
     }
 
     #nom {
@@ -85,39 +126,67 @@
         margin: auto;
     }
 
+    a {
+       color: #c6af99;
+    }
+
     .photo {
         width: 200px;
         height: 200px;
     }
 
+    h3 {
+        background: #c6af99;
+        font-size: larger;
+        letter-spacing: 1px;
+        width: 100%; 
+        font-size: 25px;
+        font-family: 'open_sanslight';
+    }
 
-    h3,
+    
     h5 {
         background: #c6af99;
         font-size: larger;
         letter-spacing: 1px;
         width: 100%;
+        font-family: 'open_sanslight';
     }
 
     .h4 {
         text-align: center;
         text-align: justify;
         margin: 0;
+        font-family: 'open_sanslight';
     }
 
     .titre {
         font-weight: bold;
+        font-size: 20px;
+        font-family: 'poppinsregular'; 
+        font-style: oblique;       
+    }
+
+    p {
+        font-size: 16px;
     }
 
     ul {
         text-align: center;
         text-align: justify;
         margin: 0;
+        font-family: 'poppinsregular';
+    }
+
+    li {
+        font-size: 18px;
     }
 
     #text {
         display: flex;
         text-align: justify;
+        font-family: 'poppinsregular';
+        font-size: 20px;
     }
 
     .coordonnee {
@@ -125,6 +194,7 @@
         width: 100%;
         border-bottom: 10px solid #c6af99;
         margin-top: 40px;
+        font-family: 'poppinsregular';
     }
 
     .icon {
